@@ -45,7 +45,7 @@ if not os.path.exists('test'):
 
 
 # Сохраняем данные в формате CSV
-x_train.to_csv('train/x_train.csv', index=False)
-y_train.to_csv('train/y_train.csv', index=False)
-x_test.to_csv('test/x_test.csv', index=False)
-y_test.to_csv('test/y_test.csv', index=False)
+x_train.to_csv('LAB_1/train/x_train.csv', index=False)
+y_train.to_csv('LAB_1/train/y_train.csv', index=False)
+x_test.to_csv('LAB_1/test/x_test.csv', index=False)
+y_test.to_csv('LAB_1/test/y_test.csv', index=False)
