@@ -1,7 +1,6 @@
 pandas
 scikit-learn
 lightgbm
-pickle
 matplotlib
 numpy
 os
