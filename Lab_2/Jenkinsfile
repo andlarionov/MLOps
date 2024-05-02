@@ -3,27 +3,33 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                echo 'Setting up the environment...'
+                sh 'echo "Setting up the environment..."'
                 sh 'pip install -r requirements.txt'
             }
         }
         stage('Build') {
             steps {
-                echo 'Building the project...'
+                sh 'echo "Building the project..."'
                 sh 'python create_dataset.py'
             }
         }
         stage('Train') {
             steps {
-                echo 'Training the model...'
+                sh 'echo "Training the model..."'
                 sh 'python train_model.py'
             }
         }
         stage('Predict') {
             steps {
-                echo 'Making predictions...'
+                sh 'echo "Making predictions..."'
                 sh 'python make_prediction.py'
             }
         }
     }
+    post {
+        always {
+            sh 'echo "Pipeline completed."'
+        }
+    }
 }
+
