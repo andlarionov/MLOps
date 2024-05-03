@@ -3,14 +3,8 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                sh 'echo "Activation of virtual environment"'
-                sh 'source /home/larionov/ml_project/MLOps/venv/bin/activate'
-            }
-        }
-        stage('Setup_2') {
-            steps {
                 sh 'echo "Setting up the environment..."'
-                sh '/home/larionov/ml_project/MLOps/venv/bin/pip install -r Lab_2/requirements.txt'
+                sh 'pip install -r Lab_2/requirements.txt'
             }
         }
         stage('Build') {
