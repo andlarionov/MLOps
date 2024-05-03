@@ -4,7 +4,7 @@ pipeline {
         stage('Setup') {
             steps {
                 sh 'echo "Setting up the environment..."'
-                sh 'pip install -r requirements.txt'
+                sh 'pip install -r Lab_2/requirements.txt'
             }
         }
         stage('Build') {
@@ -32,4 +32,3 @@ pipeline {
         }
     }
 }
-
