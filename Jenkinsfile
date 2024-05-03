@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Building the project..."'
-                sh 'python scripts/Lab_2/create_dataset.py'
+                sh 'python Lab_2/create_dataset.py'
             }
         }
         stage('Train') {
