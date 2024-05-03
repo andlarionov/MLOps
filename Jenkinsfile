@@ -7,7 +7,7 @@ pipeline {
                 sh 'source /home/larionov/ml_project/venv_ml_project/bin/activate'
             }
         }
-        stage('Setup') {
+        stage('Setup_2') {
             steps {
                 sh 'echo "Setting up the environment..."'
                 sh 'pip install -r Lab_2/requirements.txt'
