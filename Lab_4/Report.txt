@@ -1,0 +1,40 @@
+(venv1) andreil@LAPTOP-9I28E3N6:~/ml_projects/MLOps/Lab_4$ git log
+commit c4873b573af05b67ff13aeee1aa555f6a141089e (HEAD -> master)
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sun May 12 22:56:13 2024 +0300
+
+    A file not related to the project was deleted
+
+commit 8af1a7382eeb288541439d7a41476e97e8468bf3
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sun May 12 22:44:33 2024 +0300
+
+    Gender coding carried out
+
+commit ce336754e89340d489fac59f04980e2c80dafe48
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sun May 12 22:41:25 2024 +0300
+
+    Age gaps filled
+
+commit 88e55f37cf00118de25307168f65e46f67cc31dc
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sun May 12 22:30:10 2024 +0300
+
+    Create df_titanic
+
+commit 03db7db8102486d4a5eb9f8d7381b004a0cdb777
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sat May 11 23:15:37 2024 +0300
+
+    First change in datasets
+
+commit 63275d321c9fefcf1db6060f28f2f84975a84e37
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sat May 11 22:58:46 2024 +0300
+
+    Google disk was added
+
+commit f3540b5a0fb3470099f3bd83a74b3ff4fe89cb05
+Author: andlarionov <avl2709979@gmail.com>
+Date:   Sat May 11 22:49:05 2024 +0300
